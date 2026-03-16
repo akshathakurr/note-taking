@@ -1,11 +1,11 @@
 body {
     margin: 0;
-    background: linear-gradient(to left, lightblue, lightgreen);
-    font-family: "Courier New", Courier, monospace;
+    background: #FDF6E3;
+    font-family: sans-serif;
   }
   
   .heading {
-    color: darkblue;
+    color: black;
     text-align: center;
     padding-top: 10px;
     font-size: 35px;
@@ -13,7 +13,7 @@ body {
   
   .info-text {
     text-align: center;
-    color: darkblue;
+    color: rgb(21, 21, 18);
     font-size: 18px;
   }
   
@@ -29,13 +29,13 @@ body {
     padding: 17px;
     border-radius: 15px;
     resize: none;
-    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 2px rgba(33, 33, 32, 0.3);
     font-size: 18px;
     height: 200px;
-    color: darkblue;
+    color: rgb(0, 0, 0);
     border: none;
     outline: none;
-    background: rgba(255, 255, 255, 0.1);
+    background: #FFF3B0;
     box-sizing: border-box;
   }
   
@@ -44,7 +44,7 @@ body {
     opacity: 30%;
   }
   
-  .note:hover,
+  .note:hover,      
   .note:focus {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     transition: all 300ms ease;
@@ -52,8 +52,8 @@ body {
   
   .btn{
       height: 200px;
-      border-color: rgba(255, 255, 255, 0.37);
-      background: rgba(255, 255, 255, 0.27);
+      border-color:rgba(0, 0, 0, 0.2);
+      background: #FDF6E3;
       border-radius: 15px;
       font-size: 70px;
       font-weight: 700;
@@ -62,7 +62,7 @@ body {
   }
   
   .btn:hover{
-      background: rgba(255, 255, 255, 0.55);
+      background: #cfc8b4;
       color: rgba(0, 0, 0, 0.6);
       transition: all 300ms ease;
   }
